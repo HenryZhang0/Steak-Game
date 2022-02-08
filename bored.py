@@ -39,20 +39,20 @@ SCREENSHAKE = 0
 SHAKE = [0,0]
 
 #sprites
-background_sprite = pygame.transform.scale(pygame.image.load("C:/Users/zhang/Desktop/background.jpg").convert(), (500,1000))
-crate_sprite = pygame.transform.scale(pygame.image.load("C:/Users/zhang/Desktop/crate.png").convert(), (50,50))
-bomb_sprite = pygame.transform.scale(pygame.image.load("C:/Users/zhang/Desktop/bomb.png").convert_alpha(), (30,30))
+background_sprite = pygame.transform.scale(pygame.image.load("background.jpg").convert(), (500,1000))
+crate_sprite = pygame.transform.scale(pygame.image.load("crate.png").convert(), (50,50))
+bomb_sprite = pygame.transform.scale(pygame.image.load("bomb.png").convert_alpha(), (30,30))
 
-pug_sprite = pygame.transform.scale(pygame.image.load("C:/Users/zhang/Desktop/pug.png").convert_alpha(), (50,50))
-kongi_sprite = pygame.transform.scale(pygame.image.load("C:/Users/zhang/Desktop/kongi.png").convert_alpha(), (50,50))
-korgi_sprite = pygame.transform.scale(pygame.image.load("C:/Users/zhang/Desktop/dog.png").convert(), (50,50))
+pug_sprite = pygame.transform.scale(pygame.image.load("pug.png").convert_alpha(), (50,50))
+kongi_sprite = pygame.transform.scale(pygame.image.load("kongi.png").convert_alpha(), (50,50))
+korgi_sprite = pygame.transform.scale(pygame.image.load("dog.png").convert(), (50,50))
 korgi_sprite.set_colorkey(pygame.Color(78,74,78))
 player_sprite = korgi_sprite
 
-beef_sprite = pygame.image.load("C:/Users/zhang/Desktop/steak.png").convert()
-steak_game_sprite = pygame.image.load("C:/Users/zhang/Desktop/steak game.png").convert_alpha()
-start_sprite = pygame.transform.scale(pygame.image.load("C:/Users/zhang/Desktop/start].png").convert_alpha(), (86*2, 31*2))
-select_sprite = pygame.transform.scale(pygame.image.load("C:/Users/zhang/Desktop/select.png").convert_alpha(), (50, 50))
+beef_sprite = pygame.image.load("steak.png").convert()
+steak_game_sprite = pygame.image.load("steak game.png").convert_alpha()
+start_sprite = pygame.transform.scale(pygame.image.load("start].png").convert_alpha(), (86*2, 31*2))
+select_sprite = pygame.transform.scale(pygame.image.load("select.png").convert_alpha(), (50, 50))
 
 class Block():
     def __init__(self, x, y):
